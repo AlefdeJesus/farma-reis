@@ -1,0 +1,42 @@
+
+ #soon{
+    width: 15rem;
+    height: auto;
+ }
+ .hero {
+      background-color: #d62525;
+      color: white;
+      padding-top: 1rem;
+    }
+    .highlight-card {
+      background-color: #c42020;
+      color: white;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .product-card img {
+      height: 100px;
+      object-fit: contain;
+    }
+    .service-icon {
+      font-size: 2rem;
+    }
+    .section-red {
+      background-color: #d62525;
+      padding: 2rem 1rem;
+      color: white;
+    }
+
+    @media only screen and (max-width:768px) {
+        #soon{
+            width: 8rem;
+            height: auto;
+         }
+    }
+
+  
