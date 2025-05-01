@@ -1,3 +1,10 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
 
  #soon{
     width: 15rem;
@@ -7,6 +14,11 @@
       background-color: #d62525;
       color: white;
       padding-top: 1rem;
+    }
+
+    .img-card{
+      width: 5rem;
+      height: auto;
     }
     .highlight-card {
       background-color: #c42020;
