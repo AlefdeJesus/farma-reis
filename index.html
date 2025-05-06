@@ -12,6 +12,11 @@
 </head>
 <body>
 
+  <div class="whatsapp-button">
+    <a href="https://wa.me/5579996486695?text=Olá, estou na Loja Magia capilar, quero comprar pelo WhatsApp." target="_blank">
+      <img src="./imagens/whatsapp.png" alt="WhatsApp">
+    </a>
+  </div>
   <!-- HERO -->
   <section class="hero d-flex flex-row justify-content-between text-center  ">
     <div class="col-6 text-center pt-4">
@@ -61,7 +66,7 @@
   </section>
 
   <!-- PRODUTOS -->
-  <section class="container my-5">
+  <section  id="produtos" class="container my-5">
     <h2 class="text-center mb-4">Produtos em Destaque</h2>
     <div class="row g-4">
       <div class="col-md-3">
@@ -90,7 +95,7 @@
   </section>
 
   <!-- SERVIÇOS -->
-  <section class="section-red text-center">
+  <section id="servicos" class="section-red text-center">
     <div class="row g-4">
       <div class="col-md-3">
         <div>
@@ -124,7 +129,7 @@
     <div id="depoimentos-container"></div>
   </section>
   
-  <section class="container my-5">
+  <section id="localizacao" class="container my-5">
     <h3 class="text-center mb-3">Nossa Localização</h3> <!-- Reduzi mb-4 para mb-3 -->
     <div class="map-container" style="position: relative; overflow: hidden; padding-top: 56.25%;">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5540.640032987795!2d-37.09318717200171!3d-10.90096612869907!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab2e485f6ee69%3A0x5b2afb6ecf78196f!2sFarm%C3%A1cia%20Reis!5e0!3m2!1sen!2sbr!4v1746489541092!5m2!1sen!2sbr"
@@ -137,6 +142,40 @@
       </iframe>
     </div>
   </section>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Sobre a Farmácia -->
+        <div class="col-md-4 mb-3">
+          <h5>Farmácia Reis</h5>
+          <p>Sua saúde em boas mãos. Atendimento de qualidade e confiança.</p>
+        </div>
+        <!-- Contato -->
+        <div class="col-md-4 mb-3">
+          <h5>Contato</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-geo-alt-fill"></i> Av. São Paulo, 2859 - José Conrado de Araújo, Aracaju - SE</li>
+            <li><i class="bi bi-telephone-fill"></i> (79) 99648-6695</li>
+            <li><i class="bi bi-envelope-fill"></i> contato@farmaciareis.com</li>
+          </ul>
+        </div>
+        <!-- Links úteis -->
+        <div class="col-md-4 mb-3">
+          <h5>Links Úteis</h5>
+          <ul class="list-unstyled">
+            <li><a href="#produtos" class="text-white text-decoration-none"><i class="bi bi-box-seam"></i> Produtos</a></li>
+            <li><a href="#servicos" class="text-white text-decoration-none"><i class="bi bi-heart-pulse"></i> Serviços</a></li>
+            <li><a href="#Depoimentos" class="text-white text-decoration-none"><i class="bi bi-chat-left-dots-fill"></i> Depoimentos</a></li>
+            <li><a href="#localizacao" class="text-white text-decoration-none"><i class="bi bi-geo-alt-fill"></i> Localização</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2025 Farmácia Reis. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>

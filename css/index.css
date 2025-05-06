@@ -5,7 +5,16 @@ body {
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Distância do fundo da página */
+  right: 20px; /* Distância da direita da página */
+  z-index: 1000; /* Certifique-se de que está acima de outros elementos */
+}
 
+.whatsapp-button img {
+  width: 60px; /* Tamanho do ícone do WhatsApp */
+}
  #soon{
     width: 15rem;
     height: auto;
