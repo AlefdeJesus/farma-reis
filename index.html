@@ -18,6 +18,7 @@
       <h1 class="fw-bold">Farmácia REIS<br> <span class="fw-normal">Sua saúde em boas mãos</span></h1>
       <p>Medicamentos, cuidados e confiança no mesmo lugar.</p>
       <div class="mt-3">
+        
       </div>
     </div>
     <div class="col-6 ">
@@ -52,49 +53,37 @@
     </div>
   </section>
 
+  <section class="text-center py-4 bg-light">
+    <h3 class="mb-3">Horários de Funcionamento</h3>
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+      <span class="badge bg-primary text-white p-3">Aberto todos os dias: 07:00 - 00:00</span>
+    </div>
+  </section>
+
   <!-- PRODUTOS -->
   <section class="container my-5">
     <h2 class="text-center mb-4">Produtos em Destaque</h2>
     <div class="row g-4">
       <div class="col-md-3">
-        <div class="card product-card text-center">
-          <img src="https://via.placeholder.com/100x100?text=Produto" class="card-img-top mx-auto mt-3" alt="Produto">
-          <div class="card-body">
-            <h6 class="card-title">Nome do Produto</h6>
-            <p class="card-text">R$ 00.00</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-          </div>
+        <div class="card product-card text-center position-relative">
+          <img src="imagens/prod01.jpg" class="card-img" alt="Produto">
         </div>
       </div>
       <!-- Repetir os cards -->
       <div class="col-md-3">
-        <div class="card product-card text-center">
-          <img src="https://via.placeholder.com/100x100?text=Produto" class="card-img-top mx-auto mt-3" alt="Produto">
-          <div class="card-body">
-            <h6 class="card-title">Nome do Produto</h6>
-            <p class="card-text">R$ 00.00</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-          </div>
+        <div class="card product-card text-center position-relative">
+          <img src="imagens/prod02.jpg" class="card-img" alt="Produto">
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card product-card text-center">
-          <img src="https://via.placeholder.com/100x100?text=Produto" class="card-img-top mx-auto mt-3" alt="Produto">
-          <div class="card-body">
-            <h6 class="card-title">Nome do Produto</h6>
-            <p class="card-text">R$ 00.00</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-          </div>
+        <div class="card product-card text-center position-relative">
+          <img src="imagens/prod03.jpg" class="card-img" alt="Produto">
         </div>
       </div>
       <div class="col-md-3">
-        <div class="card product-card text-center">
-          <img src="https://via.placeholder.com/100x100?text=Produto" class="card-img-top mx-auto mt-3" alt="Produto">
-          <div class="card-body">
-            <h6 class="card-title">Nome do Produto</h6>
-            <p class="card-text">R$ 00.00</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-          </div>
+        <div class="card product-card text-center position-relative">
+          <img src="imagens/prod04.jpg" class="card-img" alt="Produto">
+          
         </div>
       </div>
     </div>
@@ -105,37 +94,51 @@
     <div class="row g-4">
       <div class="col-md-3">
         <div>
-          <i class="bi bi-syringe service-icon"></i>
+          <img src="imagens/injecao.png" alt="Injeção" class="img-servicos">
           <h6 class="mt-2">Aplicação de vacinas</h6>
         </div>
       </div>
       <div class="col-md-3">
         <div>
-          <i class="bi bi-clipboard-check service-icon"></i>
+          <img src="imagens/pranchetas.png" alt="testes" class="img-servicos">
           <h6 class="mt-2">Testes rápidos</h6>
         </div>
       </div>
       <div class="col-md-3">
         <div>
-          <i class="bi bi-activity service-icon"></i>
+         <img src="imagens/pressao-arterial.png" alt="Aferição de pressão" class="img-servicos">
           <h6 class="mt-2">Aferição de pressão</h6>
         </div>
       </div>
       <div class="col-md-3">
         <div>
-          <i class="bi bi-heart-pulse service-icon"></i>
+          <img src="imagens/consultando.png" alt="Consulta Farmaceutica" class="img-servicos">
           <h6 class="mt-2">Consulta farmacêutica</h6>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- DEPOIMENTOS (placeholder) -->
-  <section class="container my-5">
+  
+  <section class="container my-4" id="Depoimentos"> <!-- Reduzi my-5 para my-4 -->
     <h3 class="text-center">Depoimentos de Clientes</h3>
-    <p class="text-center text-muted">[Área reservada para depoimentos de clientes]</p>
+    <div id="depoimentos-container"></div>
+  </section>
+  
+  <section class="container my-5">
+    <h3 class="text-center mb-3">Nossa Localização</h3> <!-- Reduzi mb-4 para mb-3 -->
+    <div class="map-container" style="position: relative; overflow: hidden; padding-top: 56.25%;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5540.640032987795!2d-37.09318717200171!3d-10.90096612869907!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab2e485f6ee69%3A0x5b2afb6ecf78196f!2sFarm%C3%A1cia%20Reis!5e0!3m2!1sen!2sbr!4v1746489541092!5m2!1sen!2sbr"
+        width="100%" 
+        height="50%" 
+        style="border:0; position: absolute; top: 0; left: 0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
